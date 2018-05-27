@@ -1,0 +1,89 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527410418696" stop="1527410418779">
+  <name>test002</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527410418696" status="passed" stop="1527410418711">
+      <name>Test_02.test_002[1-6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527410418712" status="passed" stop="1527410418714">
+      <name>Test_02.test_002[2-5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527410418715" status="passed" stop="1527410418717">
+      <name>Test_02.test_002[3-4]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527410418717" status="failed" stop="1527410418775">
+      <name>Test_02.test_003[7]</name>
+      <failure>
+        <message>AssertionError: assert 7 &gt;= 10</message>
+        <stack-trace>self = &lt;test002.Test_02 object at 0x05FD9970&gt;, d = 7
+
+    @pytest.mark.parametrize("d",[7,13,17])
+    def test_003(self,d):
+&gt;       assert d &gt;= 10
+E       assert 7 &gt;= 10
+
+scripts\test002.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527410418776" status="passed" stop="1527410418777">
+      <name>Test_02.test_003[13]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527410418778" status="passed" stop="1527410418779">
+      <name>Test_02.test_003[17]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="15108-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
