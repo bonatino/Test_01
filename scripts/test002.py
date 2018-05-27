@@ -6,4 +6,8 @@ class Test_02:
         c = a + b 
         assert c == 7
 
+    @pytest.mark.parametrize("d",[7,13,17])
+    def test_003(self,d):
+        assert d >= 10
+
         
